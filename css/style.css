@@ -1,0 +1,40 @@
+		html{font-family: 'Nanum Gothic', sans-serif;}
+		body, h1, h2, p, img{margin: 0;}
+		img{display: block: 100%}
+		h1{padding-top: 100px; font-size: 1.5rem; margin-bottom: 30px;}
+		img{display: block; width: 100%;}
+		header, section, footer{width: 900px; margin:auto;}
+		header{height: 200px;}
+		footer{height: 200px;}
+		body{background: black; color: white;}
+		h2, p{font-size: 1rem; font-weight: 400; line-height: 1.8; word-spacing: 2px; letter-spacing: -1px; word-break: keep-all;}
+	
+		p{margin-top: 30px;}
+		.row{display: flex; padding: 0px 5px; margin-top: 10px; 
+			margin-bottom: 10px;}
+			.col-1{width: 590px;}
+			.col-2{width: 290px;}
+		.line {border-top: 2px dashed white; width: 900px; margin-bottom: 200px; 
+			margin-top: 200px;}
+		.bold{font-size: 4rem; font-weight: 800; text-align: right;}
+		.bold2{font-size: 3rem; font-weight: 700; text-align: right;}
+		#abs1{position: absolute; left:320px; top: 590px;}
+		#abs2{position: absolute; left:320px; top: 3025px;}
+		#abs3{position: absolute; left:320px; top: 6860px;}
+		#abs4{position: absolute; left:320px; top: 9452px;}
+		#abs5{position: absolute; left:320px; top: 12070px;}
+		#abs6{position: absolute; left:320px; top: 15090px;}
+		#aimg1{position: absolute;left: 900px; top: 270px;
+			animation: updown 2s forwards}
+		@keyframes updown{
+			from{top: 270px;}
+			to{top: 150px;}
+		}
+
+		#aimg2{position: absolute;left: 310px; top: 1930px;
+			animation: rotate 2s linear infinite;}
+		@keyframes rotate{
+			0%{}
+			100%{transform: rotate(360deg);}
+		}
+		.top100{margin-top: 100px;}
